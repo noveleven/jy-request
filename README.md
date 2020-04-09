@@ -11,7 +11,7 @@
   ```
 - ## 初始化
   ```js
-  import JyReq from '@/components/jy-image/libs/jy-request'
+  import {JyReq} from 'jy-request'
   export const req = new JyReq({
       host: 'host', //见本文档props列表
   })
