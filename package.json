@@ -1,0 +1,22 @@
+{
+  "name": "jy-request",
+  "version": "1.0.1",
+  "description": "caching for uni-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noveleven/jy-request.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "ljy_1269@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noveleven/jy-request/issues"
+  },
+  "homepage": "https://github.com/noveleven/jy-request#readme"
+}
