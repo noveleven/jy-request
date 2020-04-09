@@ -5,6 +5,10 @@
 * 支持数据缓存
 
 # 使用
+- ## 安装
+  ```bash
+  npm i jy-request
+  ```
 - ## 初始化
   ```js
   import JyReq from '@/components/jy-image/libs/jy-request'
