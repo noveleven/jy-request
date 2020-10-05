@@ -4,7 +4,13 @@
  * */
 
 export const imageCache = (url, complete=null)=> {
-	const key = btoa(url)
+	let key
+	if (typeof btoa === "function") {
+		key = btoa(url)
+	}
+	else {
+		key = Buffer.from(url).toString('base64')
+	}
 	try{
 		const path = uni.getStorageSync(key)
 		if(path.length == 0) {
